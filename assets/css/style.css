@@ -11,13 +11,13 @@ body {
 
 }
 .post{
-    background: rgb(112, 106, 106) ;
+    background: rgba(124, 69, 103, 0.651) ;
     color: white;
     padding: 10px;
     border-radius: 10px;
     margin: 10px;
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Courier New', Courier, monospace;
 
 }
 
