@@ -15,4 +15,20 @@ aa
 
 {% for nota in site.data.notas %}
   ## {{ nota.nombre }} - {{ nota.edad }} - {{ nota.sexo }}
+  <table>
+    <tr>
+      <th>nombre</th>
+      <th>Edad</th>
+      <th>Sexo</th>
+    </tr>
+    {% for nota in notas %}
+  
+    <tr>
+      <td>{{ nota.nombre }}</td>
+      <td>{{ nota.edad }}</td>
+      <td>{{ notaa.sexo }}</td>
+    </tr>
+  
+    {% endfor %}
+  </table>
 {% endfor %}
