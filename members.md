@@ -25,7 +25,7 @@ aa
   
     <tr>
       <td>{{ nota.nombre }}</td>
-      <td>{{ nota.edad }}</td>
+      <td>{{ nota.notas }}</td>
       <td>{{ notaa.sexo }}</td>
     </tr>
   
