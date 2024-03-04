@@ -2,7 +2,10 @@
 title: members
 
 ---
-<table>
+
+# Members
+
+ <table>
     <tr>
       <th>nombre</th>
       <th>notas</th>
@@ -10,9 +13,6 @@ title: members
     </tr>
  
   </table>
-# Members
-
- 
 {% for member in site.members %}
   ## {{ member.name }} - {{ member.position }}
   [ver]({{ member.url }}) 
