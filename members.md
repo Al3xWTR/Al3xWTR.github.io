@@ -13,6 +13,6 @@ aa
 {% endfor %}
 
 
-{% for persona in site.data.personas %}
-  ## {{ notas.nombre }} - {{ notas.edad }} - {{ notas.sexo }}
+{% for nota in site.data.notas %}
+  ## {{ nota.nombre }} - {{ nota.edad }} - {{ nota.sexo }}
 {% endfor %}
