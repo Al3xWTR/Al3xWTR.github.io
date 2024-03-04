@@ -18,7 +18,7 @@ aa
   <table>
     <tr>
       <th>nombre</th>
-      <th>Edad</th>
+      <th>notas</th>
       <th>Sexo</th>
     </tr>
     {% for nota in notas %}
